@@ -1,0 +1,101 @@
+caroline.css
+/* caroline.css.CSS */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #b81919;
+}
+
+.logo h1 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    height: 60vh;
+    background: url('https://img.freepik.com/fotos-premium/um-fundo-vermelho-futurista-com-um-brilho-magico_1273271-12606.jpg') no-repeat center center/cover;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(133, 7, 7, 0.5);
+}
+
+.hero .content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.hero p {
+    margin-bottom: 10px;
+}
+
+.play-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #ff0000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.chapter {
+    padding: 90px;
+    border-bottom: 60px solid #930000;
+}
+
+.chapter h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.chapter iframe {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
